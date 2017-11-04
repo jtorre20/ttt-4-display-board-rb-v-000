@@ -8,6 +8,6 @@ def display_board(board)
        "-----------",
        "   |   |   "
 
-  "#{board[0]}, #{brace[1]}, #{brace[2]}, #{brace[3]}, #{brace[4]},
-  #{brace[5]}, #{brace[6]}, #{brace[7]}, #{brace[8]}"
+  puts "#{board[0]}, #{board[1]}, #{board[2]}, #{board[3]}, #{board[4]},
+  #{board[5]}, #{board[6]}, #{board[7]}, #{board[8]}"
 end
