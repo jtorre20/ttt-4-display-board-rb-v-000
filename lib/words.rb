@@ -1,4 +1,9 @@
 words = ["cats", "dogs"]
 def sentence(words)
-  puts "the first word is #{words[0]} and the second word is #{words[1]}}"
+  puts " #{words[0]} |  #{words[1]}}"
+end
+
+words = ["cat", "dog", "fish", "monkey"]
+def printFourWords
+  puts "#{words[2]} #{words[3]}"
 end
